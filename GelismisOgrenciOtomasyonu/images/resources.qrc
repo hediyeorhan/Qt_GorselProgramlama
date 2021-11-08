@@ -1,0 +1,7 @@
+<RCC>
+    <qresource prefix="/image">
+        <file>ders.jpg</file>
+        <file>notlar.jpg</file>
+        <file>ogr.jpg</file>
+    </qresource>
+</RCC>

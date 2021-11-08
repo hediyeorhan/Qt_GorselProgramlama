@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>668</width>
+    <height>468</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <widget class="QTabWidget" name="tabWidget">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>110</y>
+      <width>651</width>
+      <height>311</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+     </font>
+    </property>
+    <property name="currentIndex">
+     <number>4</number>
+    </property>
+    <widget class="QWidget" name="tab">
+     <attribute name="title">
+      <string>Uye Kayıt</string>
+     </attribute>
+    </widget>
+    <widget class="QWidget" name="tab_3">
+     <attribute name="title">
+      <string>Kitap Kayıt</string>
+     </attribute>
+    </widget>
+    <widget class="QWidget" name="tab_2">
+     <attribute name="title">
+      <string>Uye Sorgu</string>
+     </attribute>
+    </widget>
+    <widget class="QWidget" name="tab_4">
+     <attribute name="title">
+      <string>Kitap Sorgu</string>
+     </attribute>
+    </widget>
+    <widget class="QWidget" name="tab_5">
+     <attribute name="title">
+      <string>Odunc</string>
+     </attribute>
+     <widget class="QLabel" name="label_3">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>30</y>
+        <width>81</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Kitap id : </string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_4">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>70</y>
+        <width>71</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Uye id : </string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="lineEdit_kitapid">
+      <property name="geometry">
+       <rect>
+        <x>110</x>
+        <y>30</y>
+        <width>113</width>
+        <height>20</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="lineEdit_uyeid">
+      <property name="geometry">
+       <rect>
+        <x>110</x>
+        <y>70</y>
+        <width>113</width>
+        <height>20</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton">
+      <property name="geometry">
+       <rect>
+        <x>330</x>
+        <y>40</y>
+        <width>101</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Odunc Ver</string>
+      </property>
+     </widget>
+    </widget>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>10</y>
+      <width>71</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Kullanıcı Adı : </string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>50</y>
+      <width>81</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Kullanıcı Şifre : </string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_kullaniciadi">
+    <property name="geometry">
+     <rect>
+      <x>100</x>
+      <y>10</y>
+      <width>113</width>
+      <height>20</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_sifre">
+    <property name="geometry">
+     <rect>
+      <x>100</x>
+      <y>50</y>
+      <width>113</width>
+      <height>20</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_oturumac">
+    <property name="geometry">
+     <rect>
+      <x>300</x>
+      <y>30</y>
+      <width>101</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Oturum Aç</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>668</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuGiri">
+    <property name="title">
+     <string>Uye</string>
+    </property>
+    <addaction name="action_ye_Kay_t"/>
+    <addaction name="action_ye_Sorgu"/>
+   </widget>
+   <widget class="QMenu" name="menuKitap">
+    <property name="title">
+     <string>Kitap</string>
+    </property>
+    <addaction name="actionKitap_KAy_t"/>
+    <addaction name="actionKitap_Sorgu"/>
+   </widget>
+   <widget class="QMenu" name="menuOdunc">
+    <property name="title">
+     <string>Odunc</string>
+    </property>
+    <addaction name="actionOdunc_Ver"/>
+    <addaction name="actionOdunc_Al"/>
+   </widget>
+   <addaction name="menuGiri"/>
+   <addaction name="menuKitap"/>
+   <addaction name="menuOdunc"/>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+  <action name="action_ye_Kay_t">
+   <property name="text">
+    <string>Uye Kayit</string>
+   </property>
+  </action>
+  <action name="action_ye_Sorgu">
+   <property name="text">
+    <string>Uye Sorgu</string>
+   </property>
+  </action>
+  <action name="actionKitap_KAy_t">
+   <property name="text">
+    <string>Kitap Kayit</string>
+   </property>
+  </action>
+  <action name="actionKitap_Sorgu">
+   <property name="text">
+    <string>Kitap Sorgu</string>
+   </property>
+  </action>
+  <action name="actionOdunc_Ver">
+   <property name="text">
+    <string>Odunc Ver</string>
+   </property>
+  </action>
+  <action name="actionOdunc_Al">
+   <property name="text">
+    <string>Odunc Al</string>
+   </property>
+  </action>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>

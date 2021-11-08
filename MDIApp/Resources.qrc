@@ -1,0 +1,13 @@
+<RCC>
+    <qresource prefix="/file">
+        <file>iconlar/copy.png</file>
+        <file>iconlar/cut.png</file>
+        <file>iconlar/new.png</file>
+        <file>iconlar/open.png</file>
+        <file>iconlar/paste.png</file>
+        <file>iconlar/save.png</file>
+        <file>iconlar/saveas.png</file>
+        <file>iconlar/selectall.png</file>
+        <file>iconlar/selectnone.png</file>
+    </qresource>
+</RCC>

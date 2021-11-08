@@ -1,0 +1,9 @@
+<RCC>
+    <qresource prefix="/file">
+        <file>kabul.png</file>
+        <file>kaydet.jpg</file>
+        <file>oku.jpg</file>
+        <file>red.png</file>
+        <file>yeni.png</file>
+    </qresource>
+</RCC>

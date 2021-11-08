@@ -1,0 +1,11 @@
+<RCC>
+    <qresource prefix="/dosyalar">
+        <file>oku.jpg</file>
+        <file>kaydet.jpg</file>
+        <file>yeni.png</file>
+    </qresource>
+    <qresource prefix="/dialog">
+        <file>kabul.png</file>
+        <file>red.png</file>
+    </qresource>
+</RCC>
